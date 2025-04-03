@@ -34,7 +34,8 @@ ENV YT2009_PORT=80 \
     YT2009_DISABLEMASTER=false \
     YT2009_RATELIMIT=false \
     YT2009_AC=false \
-    YT2009_GDATA_AUTH=false
+    YT2009_GDATA_AUTH=false \
+    YT2009_DATA_API_KEY=AIzaSyC-s1_5P4uIA_ls1jN9kto6KodnwjKTSqM
 
 RUN npm install && \
     ln -s /data/androiddata.json back/androiddata.json && \
