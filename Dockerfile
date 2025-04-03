@@ -27,15 +27,14 @@ ENV YT2009_PORT=80 \
     YT2009_SSLPORT=443 \
     YT2009_SSLPATH=/yt2009/cert.crt \
     YT2009_SSLKEY=/yt2009/cert.key \
-    YT2009_AUTO_MAINTAIN=true \
+    YT2009_AUTO_MAINTAIN=false \
     YT2009_MAINTAIN_MAX_SIZE=10 \
     YT2009_MAINTAIN_MAX_CACHE_SIZE=15 \
     YT2009_FALLBACK=false \
     YT2009_DISABLEMASTER=false \
     YT2009_RATELIMIT=false \
     YT2009_AC=false \
-    YT2009_GDATA_AUTH=false \
-    YT2009_DATA_API_KEY=AIzaSyC-s1_5P4uIA_ls1jN9kto6KodnwjKTSqM
+    YT2009_GDATA_AUTH=false
 
 RUN npm install && \
     ln -s /data/androiddata.json back/androiddata.json && \
